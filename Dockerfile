@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy bot files
 COPY bot_advanced.py .
 COPY config.py .
-COPY .env .
+# COPY .env .
 
 # Run bot
 CMD ["python", "bot_advanced.py"]
