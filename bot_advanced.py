@@ -3,7 +3,6 @@ import logging
 from dotenv import load_dotenv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, File
 from telegram.request import HTTPXRequest
-# from payment_system import PricingSystem, PaymentTracker, AdminCard
 from telegram.ext import (
     Application,
     CommandHandler,
@@ -17,7 +16,7 @@ from openai import OpenAI
 import json
 from datetime import datetime
 from typing import Dict, Optional, List
-# from payment_system import PricingSystem, PaymentTracker, AdminCard
+from payment_system import PricingSystem, PaymentTracker, AdminCard
 
 # Load environment variables
 load_dotenv()

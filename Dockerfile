@@ -16,6 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy bot files
 COPY bot_advanced.py .
 COPY config.py .
+COPY payment_system.py .
 # COPY .env .
 
 # Run bot
