@@ -1,0 +1,76 @@
+# 🎯 TEZKOR BOSHLANISH - 5 MINUT
+
+## 1️⃣ TELEGRAM BOT TOKEN OLISH (2 min)
+
+**Telegram'da @BotFather'ni toping va:**
+```
+/newbot
+- Bot nomi: "PremiumReferat Bot" 
+- Username: "premium_referat_bot" (unikal bo'lishi kerak)
+```
+
+✅ Olingan token'ni saqlang (masalan: `123456789:ABCDefGHIjklmnoPQRstuvWXYZ`)
+
+---
+
+## 2️⃣ OPENAI API KEY OLISH (2 min)
+
+**https://platform.openai.com'ga boring:**
+1. Ro'yxatdan o'ting (email va telefon orqali)
+2. Billing qismiga -> Kredit qo'shish (5-20$)
+3. API Keys -> Create new secret key
+4. Olingan key'ni saqlang (masalan: `sk-1234567890...`)
+
+---
+
+## 3️⃣ BOT'NI SOZLASH (1 min)
+
+**VS Code'da `.env` faylini oching va o'zingizni token va API key'ni kiriting:**
+
+```env
+TELEGRAM_BOT_TOKEN=123456789:ABCDefGHIjklmnoPQRstuvWXYZ
+OPENAI_API_KEY=sk-1234567890abcdefghijklmnopqrstuvwxyz
+```
+
+**Saqlang: Ctrl+S**
+
+---
+
+## 4️⃣ KUTUBXONALARNI O'RNATISH (Avtomat)
+
+```powershell
+cd c:\Users\Asus\Desktop\PremiumReferat
+pip install -r requirements.txt
+```
+
+---
+
+## 5️⃣ BOT'NI ISHGA TUSHIRISH (Tugadi!)
+
+```powershell
+python bot_advanced.py
+```
+
+**Terminal'da quyidagini ko'rish kerak:**
+```
+🤖 Referat Bot ishga tushdi!
+🔗 Telegram'da botingizni qidiring va /start buyrug'ini kiriting
+```
+
+---
+
+## ✅ TAYYOR!
+
+Telegram'da o'zingiz yaratgan bot'ni qidiring va `/start` buyrug'ini kiriting!
+
+🎉 Referatlar yaratishni boshlang!
+
+---
+
+## 📱 TEST UCHUN:
+
+```
+/start -> mavzu kiriting -> ta'lim darajasi tanlang -> betlar soni -> format
+```
+
+**Xato bo'lsa SETUP.md'ni o'qing!**

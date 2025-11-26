@@ -1,0 +1,60 @@
+# Environment Variables (YASHIRIN!)
+.env
+.env.local
+.env.*.local
+.env.dev
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+bot_activity.json
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Temporary Files
+*.tmp
+*.bak
+*.temp
+temp/
+.cache/
+
+# OS
+Thumbs.db
+.Thumbs.db
