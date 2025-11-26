@@ -1,25 +1,3 @@
-import sys
-import os
-
-print("=== RAILWAY DEBUG ===")
-print("Current working directory:", os.getcwd())
-print("Script location:", os.path.dirname(os.path.abspath(__file__)))
-print("Python path:", sys.path)
-print("Files in directory:")
-for file in os.listdir('.'):
-    if file.endswith('.py'):
-        print(f"  - {file}")
-print("=====================")
-
-# payment_system mavjudligini tekshirish
-payment_system_path = './payment_system.py'
-if os.path.exists(payment_system_path):
-    print("✅ payment_system.py FOUND")
-else:
-    print("❌ payment_system.py NOT FOUND")
-    print("Available .py files:", [f for f in os.listdir('.') if f.endswith('.py')])
-
-
 import os
 import logging
 from dotenv import load_dotenv
